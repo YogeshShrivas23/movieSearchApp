@@ -14,6 +14,7 @@ A responsive web application for browsing movies, built with React and styled wi
 - **Loading & Error States**: Clear loading indicators and fallback messages provide a smooth user experience.
 
 
+
 ---
 
 ## Folder Structure
@@ -119,4 +120,5 @@ The application will automatically open in your default web browser at `http://l
 ```
 
 ```
+
 
