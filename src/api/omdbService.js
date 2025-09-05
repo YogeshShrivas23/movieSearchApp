@@ -1,5 +1,5 @@
 // --- SERVICES: API Calls (Live OMDb API) ---
-const API_KEY = 'YOUR_API_KEY'; 
+const API_KEY = '765b1ddd'; 
 const API_BASE_URL = `https://www.omdbapi.com/`;
 
 export const searchMovies = async (query) => {
@@ -62,3 +62,4 @@ export const getMovieDetails = async (titleId) => {
      return null;
    }
 };
+
