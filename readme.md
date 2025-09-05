@@ -2,14 +2,17 @@
 
 A responsive web application for browsing movies, built with React and styled with Tailwind CSS. This app fetches live data from the OMDb API to provide real-time search results and detailed movie information.
 
+🔗 **Live Demo**: [Movie Search App](https://movie-search-app-flax-rho.vercel.app/)
+
 ## Features
 
--   **User Authentication**: A dummy login screen to simulate a user session.
--   **Live Movie Search**: Search for movies by title using the OMDb API.
--   **Movie Details**: Click on any movie to see a detailed view including the plot, director, cast, rating, and more.
--   **Search History**: The application saves your last 5 unique search queries in the browser's local storage for quick access.
--   **Responsive Design**: The interface is fully responsive and works smoothly on desktop, tablet, and mobile devices.
--   **Loading & Error States**: Clear loading indicators and fallback messages provide a smooth user experience.
+- **User Authentication**: A dummy login screen to simulate a user session.
+- **Live Movie Search**: Search for movies by title using the OMDb API.
+- **Movie Details**: Click on any movie to see a detailed view including the plot, director, cast, rating, and more.
+- **Search History**: The application saves your last 5 unique search queries in the browser's local storage for quick access.
+- **Responsive Design**: The interface is fully responsive and works smoothly on desktop, tablet, and mobile devices.
+- **Loading & Error States**: Clear loading indicators and fallback messages provide a smooth user experience.
+
 
 ---
 
@@ -116,3 +119,4 @@ The application will automatically open in your default web browser at `http://l
 ```
 
 ```
+
