@@ -75,20 +75,27 @@ or
 yarn install
 ```
 
-### 3\. Set Up Your API Key
+### 3. Set Up Your API Key  
 
-This project requires a free API key from the OMDb API.
+This project requires a free API key from the OMDb API.  
 
-1.  Visit [http://www.omdbapi.com/apikey.aspx](http://www.omdbapi.com/apikey.aspx) and request a key.
-2.  Open the `src/api/omdbService.js` file.
-3.  Replace the placeholder `'765b1ddd'` with the key you received.
-
-<!-- end list -->
+1. Go to [http://www.omdbapi.com/apikey.aspx](http://www.omdbapi.com/apikey.aspx) and request a free API key.  
+2. Open the file `src/api/omdbService.js`.  
+3. Replace the placeholder key `'765b1ddd'` with the API key you received (make sure to paste only the key, not the full URL).  
 
 ```javascript
 // in src/api/omdbService.js
-const API_KEY = 'http://www.omdbapi.com/?i=tt3896198&apikey=765b1ddd'; // <-- Paste your key here
-```
+const API_KEY = '765b1ddd'; // <-- replace this with your own key
+
+export const fetchMovieById = async (id) => {
+  const response = await fetch(`https://www.omdbapi.com/?i=${id}&apikey=${API_KEY}`);
+  return response.json();
+};
+
+export const fetchMovieBySearch = async (query) => {
+  const response = await fetch(`https://www.omdbapi.com/?s=${query}&apikey=${API_KEY}`);
+  return response.json();
+};
 
 ### 4\. Run the Application
 
