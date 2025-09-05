@@ -81,13 +81,13 @@ This project requires a free API key from the OMDb API.
 
 1.  Visit [http://www.omdbapi.com/apikey.aspx](http://www.omdbapi.com/apikey.aspx) and request a key.
 2.  Open the `src/api/omdbService.js` file.
-3.  Replace the placeholder `'YOUR_API_KEY_HERE'` with the key you received.
+3.  Replace the placeholder `'765b1ddd'` with the key you received.
 
 <!-- end list -->
 
 ```javascript
 // in src/api/omdbService.js
-const API_KEY = 'YOUR_API_KEY'; // <-- Paste your key here
+const API_KEY = 'http://www.omdbapi.com/?i=tt3896198&apikey=765b1ddd'; // <-- Paste your key here
 ```
 
 ### 4\. Run the Application
@@ -107,4 +107,5 @@ yarn start
 The application will automatically open in your default web browser at `http://localhost:3000`.
 
 ```
+
 ```
